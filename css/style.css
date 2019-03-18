@@ -1,0 +1,66 @@
+body {
+  background-image: url(../media/background/jojo.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 450px;
+  margin: auto;
+  background-color: grey;
+  padding: 20px;
+  border: red 3px solid;
+  border-radius: 10px;
+  margin-top: auto;
+  opacity: 1;
+}
+
+.inventory {
+  width: 400px;
+  margin: auto;
+  background-color: grey;
+  padding: 20px;
+  border: red 3px solid;
+  border-radius: 10px;
+  position: absolute;
+  top: 9px;
+  opacity: 1;
+}
+
+.stats {
+  width: 400px;
+  margin: auto;
+  background-color: grey;
+  padding: 20px;
+  border: red 3px solid;
+  border-radius: 10px;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  opacity: 1;
+}
+
+#feedback {
+  background-color: yellow;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#hitbox {
+  position: absolute;
+  display: inline;
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  opacity: 0.0;
+}
+
+#player_damage {
+  display: block;
+}
+
+#health_stat {
+  display: block;
+}
