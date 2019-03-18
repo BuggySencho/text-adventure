@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Jojo's bizarre quest</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <iframe src="media/silence.mp3" allow="autoplay" style="display:none"></iframe>
+    <audio src="media/background_music_jojo.mp3" autoplay loop id="audio">
+</audio>
+  <div class="container">
+      <H1 id="location">Hier is mijn lokatie</H1>
+      <div class="image">
+          <img id="imageLocation" src="" width="450" alt="">
+          <img id="enemyImage" src="" alt="enemies">
+      </div>
+      <div id="hitbox"></div>
+        <div id="description">this is the description</div>
+      <div id="inventory"></div>
+      <ul id="possibilities">these are your possibilities</ul>
+      <div class="input">
+        <label for="myInput">What are you going to do? </label><input type="text" name="myInput" id="myInput" autofocus>
+      </div>
+      <div id="feedback"></div>
+    </div>
+  <div class="inventory">
+<h1>inventory</h1>
+<p id="items">items</p>
+  </div>
+  <div class="stats">
+    <h1>Stats and map</h1>
+    <p id="stats">Health:</p> <p id="health_stat">0</p>
+    <p id="stats">Attack pwr:</p> <p id="player_damage">0</p>
+    <p> gain a lvl:</p>
+    <p>lvl 1 = 3 enemies.</p>
+    <p> lvl 2 = 4 enemies.</p>
+    <p> lvl 3 = 5 enemies.</p>
+    <p> etc.</p>
+    <img src="media/map/image2.jpg" width="350" alt="ground floor">
+    <img src="media/map/image3.jpg" width="350" alt="first floor">
+  </div>
+  <div id="enemy_health"></div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
